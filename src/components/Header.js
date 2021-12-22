@@ -2,7 +2,7 @@ import React from "react";
 const Header = (props) => {
     const { search, onInputChange, onSearchClick } = props;
     return (
-        <div className="jumbotron">
+        <div className="jumbotron"> 
             <h2 className="display-1">
                 <i class="material-icons brand-icon" >fastfood</i>Food Recipe
             </h2>
